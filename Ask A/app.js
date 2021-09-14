@@ -22,6 +22,7 @@
     var contactemail = document.querySelector('.contact-email').value;
     var contactask = document.querySelector('.contact-ask').value;
     var contactmessage = document.querySelector('.contact-message').value;
+    alert(`Thank you for your submission!`);
 
        console.log(`Thank you ${contactname} for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
    }
