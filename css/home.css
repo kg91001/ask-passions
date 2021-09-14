@@ -289,7 +289,7 @@ body {
     text-decoration: none !important;
 }
 
-input[type=submit] {
+input[type=button] {
     width: 50%;
     padding: 12px;
     margin: 8px 0;
@@ -317,7 +317,7 @@ input[type=submit] {
     
 }
 
-.full-newsletter input[type=submit] {
+.full-newsletter input[type=button] {
     background-color: grey;
     color: white;
     border: none;
@@ -327,11 +327,11 @@ input[type=submit] {
     font-size: 15px;
 }  
 
-.full-newsletter input[type=submit]:hover {
+.full-newsletter input[type=button]:hover {
     opacity: 0.8;
 }
 
-.full-newsletter-ask-k input[type=submit] {
+.full-newsletter-ask-k input[type=button] {
     background-color: #fb969a;
     color: white;
     border: none;
@@ -343,7 +343,7 @@ input[type=submit] {
     font-size: 15px;
 }
   
-.full-newsletter-ask-k input[type=submit]:hover {
+.full-newsletter-ask-k input[type=button]:hover {
     opacity: 0.8;
 }
 
