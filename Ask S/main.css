@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(226, 222, 222);
+  }
+
+  .nav-item {
+    font-family: 'Alegreya Sans', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.navbar {
+    background-color: white !important;
+    margin-left: -20px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
+}
+    .navbar a {float: left;}
+    div.content {margin-left: 0;}
+}
+  
+  .homepage-banner{
+    background:url('photo-1451187580459-43490279c0fa.webp');
+    background-size:cover;
+    height:82vh;
+    display:flex;
+    justify-content:center;
+
+  }
+
+  .homepage-banner-background{
+    padding-top:10rem;
+    text-align:center;
+    color:white;
+  }
+
+  .homepage-banner h1{
+    margin:0.3rem;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 75px !important;
+    font-family: 'Bubblegum Sans', cursive !important;
+    
+  }
+
+  #Carousel {
+    padding-bottom: 100px;
+  }
+
+  .blog .carousel-indicators {
+    left: 0;
+    top: -50px;
+    height: 50%;
+  }
+  
+
+.col{
+  padding:0px;
+}
+
+.box {
+  text-align: center;
+  padding: 30px;
+}
+
+.box-image {
+  position: relative;
+}
+
+.box-image figure img {
+  width: 100%;
+  height: auto;
+  padding:10px;
+}
+
+.carousel-inner h5 {
+  font-family: 'Alegreya Sans', sans-serif !important;
+}
+
+.carousel-inner p {
+  font-family: 'Literata', serif !important;
+}
+
+.bottomnav {
+  background: white;
+  height:230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer h4 {
+  font-size: 22px;
+  font-family: 'Bubblegum Sans', cursive !important;
+}
+
+.icons {
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.icons img {
+  height: 20px;
+  border: 0 none;
+  margin: 5px 15px 15px 15px;
+}
+
+.info p {
+  padding-top: 10px;
+  justify-content: center;
+  font-size: 12px;
+  font-family: 'Literata', serif !important;
+  color: black !important;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
