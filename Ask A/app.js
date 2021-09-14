@@ -18,6 +18,7 @@
  })
 
    function form_submission() {
+    alert('Thank you for submitting!');
     var contactname = document.querySelector('.contact-name').value;
     var contactemail = document.querySelector('.email').value;
     var contactask = document.querySelector('.ask').value;
