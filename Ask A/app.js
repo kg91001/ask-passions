@@ -18,10 +18,10 @@
  })
 
    function form_submission() {
-       var contactname = document.querySelector('.contact-name');
-       var contactemail = document.querySelector('.email');
-       var contactask = document.querySelector('.ask');
-       var contactmessage = document.querySelector('.message');
+    var contactname = document.querySelector('.contact-name').value;
+    var contactemail = document.querySelector('.email').value;
+    var contactask = document.querySelector('.ask').value;
+    var contactmessage = document.querySelector('.message').value;
 
        console.log(`Thank you ${contactname} for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
    }
