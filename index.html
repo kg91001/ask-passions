@@ -131,12 +131,12 @@
       </div>
       <div class="newsletter">
       <div class="container-newsletter">
-          <form id="myform" onsubmit="return form_submission()">
+          <form id="myform" onsubmit="return newsletter_subscribe()">
           <input class="text-type contact-name" type="text" placeholder="First name" name="name" required>
-          <input class="text-type contact-email" type="text" placeholder="Email" name="mail" required>
+          <input class="text-type email" type="text" placeholder="Email" name="mail" required>
       </div>
       <div class="container-newsletter">
-          <input class="button" type="submit" onclick="return form_submission()" value="Subscribe" id="submitbutton">
+          <input class="button" type="button" onclick="return newsletter_subscribe()" value="Subscribe" id="submitbutton">
           </div>
           </div>
       </form>
