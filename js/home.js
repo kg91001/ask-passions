@@ -1,4 +1,4 @@
-   function form_submission() {
+   function newsletter_submission() {
     var contactname = document.querySelector('.contact-name').value;
     var contactemail = document.querySelector('.email').value;
 
