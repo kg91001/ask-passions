@@ -17,10 +17,21 @@
    input.addEventListener("blur", blurFunc);
  })
 
-   function form_submission() {
+   function newsletter_subscribe() {
     var contactname = document.querySelector('.contact-name').value;
     var contactemail = document.querySelector('.email').value;
     alert('Thank you for subscribing!');
 
        console.log(`Thank you ${contactname} for subscribing to the ASK Passions newsletter at ${contactemail}!`);
    }
+
+   function form_submission() {
+    var contactname = document.querySelector('.contact-name').value;
+    var contactemail = document.querySelector('.email').value;
+    var contactask = document.querySelector('.ask').value;
+    var contactmessage = document.querySelector('.message').value;
+    alert('Thank you for submitting!');
+
+       console.log(`Thank you ${contactname} for submitting your ASK through ${contactemail} for ASKer ${contactask}! Your message: ${contactmessage}`);
+   }
+
