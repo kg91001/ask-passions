@@ -26,3 +26,10 @@
 
        console.log(`Thank you, ${contactname}, for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
    }
+
+function reset() {
+ var resetButton = document.querySelector('.input').value;
+ if(resetButton) {
+  resetButton.value="";
+ }
+}
