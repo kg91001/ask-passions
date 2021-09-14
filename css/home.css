@@ -77,6 +77,14 @@ body {
     font-family: 'Bubblegum Sans', cursive !important;
 }
 
+@media (max-width:991px){
+    .carousel {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+
 body {
     background-color: #e9e9e9;
 }
@@ -202,6 +210,40 @@ body {
     cursor: pointer;
 }
 
+@media (max-width:991px){
+    
+    .card{
+        grid-template-columns: 2fr 1fr;
+        font-size: 55%;
+        width: 100%;
+    }
+
+    .details p, span {
+        font-size: 12px !important;
+    }
+
+    .description {
+        height: 400px !important;
+    }
+
+    .full-newsletter {
+        padding: -10px 0px -10px 0px !important;
+    }
+
+    .column {
+        padding: 15px !important;
+    }
+
+    .title-latest {
+        margin-top: 0px !important;
+    }
+
+    .description p {
+        width: 80% !important;
+    }
+  
+  }
+
 .description {
     height: 450px;
     background-color: white;
@@ -251,6 +293,26 @@ body {
     margin-right: auto;
 }
 
+@media (max-width:991px){
+
+    .card-ask-k {
+        width: 50% !important;
+    }
+
+    .details p, span {
+        font-size: 12px !important;
+    }
+
+    .aboutmeimg {
+        margin-left: 32% !important;
+    }
+
+    .aboutmetext {
+        width: 80% !important;
+    }
+
+  }
+
 .forms {
     margin-left: 33%;
 }
@@ -298,6 +360,7 @@ input[type=button] {
     align-items: center;
     font-family: 'Alegreya Sans', sans-serif !important;
     font-size: 15px;
+    border-radius: 12px;
 }
 
 .aboutmeimg {
