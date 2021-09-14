@@ -18,21 +18,10 @@
  })
 
    function form_submission() {
-    alert('Thank you for submitting!');
     var contactname = document.querySelector('.contact-name').value;
     var contactemail = document.querySelector('.email').value;
     var contactask = document.querySelector('.ask').value;
     var contactmessage = document.querySelector('.message').value;
 
        console.log(`Thank you ${contactname} for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
-
-   }
-
-
-   function newsletter_subscribe() {
-    alert('Thank you for subscribing!');
-    var contactname = document.querySelector('.contact-name').value;
-    var contactemail = document.querySelector('.email').value;
-
-       console.log(`Thank you ${contactname} for subscribing to the ASK Passions newsletter at ${contactemail}!`);
    }
