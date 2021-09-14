@@ -19,9 +19,17 @@
 
    function form_submission() {
     var contactname = document.querySelector('.contact-name').value;
-    var contactemail = document.querySelector('.email').value;
-    var contactask = document.querySelector('.ask').value;
-    var contactmessage = document.querySelector('.message').value;
+    var contactemail = document.querySelector('.contact-email').value;
+    var contactask = document.querySelector('.contact-ask').value;
+    var contactmessage = document.querySelector('.contact-message').value;
 
        console.log(`Thank you ${contactname} for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
+   }
+
+   function newsletter_subscribe() {
+    alert('Thank you for subscribing!');
+    var contactname = document.querySelector('.contact-name').value;
+    var contactemail = document.querySelector('.contact-email').value;
+
+       console.log(`Thank you ${contactname} for subscribing to the ASK Passions newsletter at ${contactemail}!`);
    }
