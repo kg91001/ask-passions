@@ -24,5 +24,5 @@
     var contactask = document.querySelector('.ask').value;
     var contactmessage = document.querySelector('.message').value;
 
-       console.log(`Thank you ${contactname} for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
+       console.log(`Thank you, ${contactname}, for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
    }
