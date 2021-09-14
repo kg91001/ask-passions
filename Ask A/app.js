@@ -23,11 +23,11 @@
     var contactemail = document.querySelector('.email').value;
     var contactask = document.querySelector('.ask').value;
     var contactmessage = document.querySelector('.message').value;
-
-       console.log(`Thank you, ${contactname}, for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
+    
    }
 
 function reset() {
+ console.log(`Thank you, ${contactname}, for contacting us at ${contactemail}! Your ASK for ${contactask} has been recorded: ${contactmessage}`);
  var resetButton = document.querySelector('.input').value;
  if(resetButton) {
   resetButton.value="";
