@@ -85,7 +85,7 @@ p {
 .bottomnav {
     padding: 20px;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 75%;
 }
 
   .bottomnav {
@@ -98,7 +98,7 @@ p {
 }
 
 .footer {
-    margin-top: 600px !important;
+    margin-top: 25px !important;
     position: relative;
 }
 
