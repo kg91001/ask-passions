@@ -97,6 +97,15 @@ p {
     text-align: center;
 }
 
+bottomnav-k {
+        background: white;
+    height:225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .blogfooter {
   display: flex !important;
   flex-direction: column !important;
