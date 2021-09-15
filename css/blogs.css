@@ -66,6 +66,11 @@ p {
     font-family: 'Alegreya Sans', sans-serif !important;
 }
 
+.card p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .right-column {
     float: left;
     width: 25%;
