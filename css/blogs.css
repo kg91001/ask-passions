@@ -98,8 +98,8 @@ p {
 }
 
 .footer {
-    margin-top: 100px !important;
-    position: fixed;
+    margin-top: 500px !important;
+    position: relative;
 }
 
 .footer h4, .footer-ask-k h4 {
