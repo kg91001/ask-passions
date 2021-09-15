@@ -98,7 +98,8 @@ p {
 }
 
 .blogfooter {
-    margin-top: 75% !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .footer {
