@@ -97,6 +97,10 @@ p {
     text-align: center;
 }
 
+.blogfooter {
+    margin-top: 75% !important;
+}
+
 .footer {
     margin-top: 25px !important;
     position: relative;
