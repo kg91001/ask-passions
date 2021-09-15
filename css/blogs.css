@@ -67,6 +67,12 @@ p {
 }
 
 .card p {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.card h4 {
+        font-family: 'Alegreya Sans', sans-serif !important;
     padding-top: 20px;
     padding-bottom: 20px;
 }
