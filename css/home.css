@@ -419,6 +419,10 @@ input[type=button] {
     text-align: center;
 }
 
+.blogfooter {
+    margin-top: 75%;
+}
+
 .image-link {
     text-decoration: none;
 }
