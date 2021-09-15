@@ -98,11 +98,16 @@ p {
 }
 
 bottomnav-k {
-        background: white;
+    background: white;
     height:225px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+bottomnav-k {
+    padding: 20px;
     text-align: center;
 }
 
