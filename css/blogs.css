@@ -98,7 +98,7 @@ p {
 }
 
 bottomnav-k {
-    background: white;
+    background-color: white;
     height:225px;
     display: flex;
     justify-content: center;
